@@ -578,4 +578,6 @@ with gr.Blocks(css=customCSS) as demo:
 demo.queue()
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=8888, debug=True)
+    port=80
+    print(f"running on port {port}")
+    demo.launch(server_name="0.0.0.0", server_port=port, debug=False)

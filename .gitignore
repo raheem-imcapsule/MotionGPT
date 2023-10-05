@@ -1,0 +1,14 @@
+__pycache__
+cache/**
+*.pkl
+*.tar.gz
+*.tar.xz
+.DS_Store
+._.DS_Store
+# .npy
+*.npz
+*.zip
+*.h5
+deps/t2m
+*.faces
+._t2m

@@ -23,10 +23,10 @@ METRIC:
     t2m_path: deps/t2m/ # path for tm2t evaluator
 
 model:
-  whisper_path: deps/whisper-large-v2 # path for whisper model, webui only
+  whisper_path: openai/whisper-large-v2 # path for whisper model, webui only
 
 RENDER:
   BLENDER_PATH: libs/blender-2.93.2-linux-x64/blender
-  SMPL_MODEL_PATH: deps/smpl/smpl_models/smpl
-  MODEL_PATH: deps/smpl/smpl_models/
-  FACES_PATH: deps/smplh/smplh.faces
+  SMPL_MODEL_PATH: deps/smpl_models/smpl
+  MODEL_PATH: deps/smpl_models/
+  FACES_PATH: deps/smpl_models/smplh/smplh.faces
